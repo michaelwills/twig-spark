@@ -12,7 +12,7 @@ class Twig {
   private $env = null;
   
   public function __construct($config = array()) {
-    require_once SPARKROOT . '/vendors/Twig/Autoloader.php';
+    require_once SPARKROOT . $config['path_twig_lib'] . '/Twig/Autoloader.php';
     Twig_Autoloader::register();
 
     $this->loader = new Twig_Loader_Filesystem($config['path_templates']);
