@@ -5,7 +5,7 @@ Twig uses a syntax similar to the Django and Jinja template languages which insp
 
 ## Installation and configuration
 
-After installing this Spark, you have to put the Twig library in the **SPARKROOT/vendors** directory of your application and check if the **path\_twig\_lib** configuration key in **SPARKROOT/config/twig.php** matches with your filesystem. In case you directly clone the whole Twig project in your vendors dir (by typing **git clone https://github.com/fabpot/Twig.git**), the default path should do.
+After installing this Spark, you have to put the Twig library in the **SPARK_DOCTRINE2_PATH/vendors** directory of your application and check if the **path\_twig\_lib** configuration key in **SPARK_DOCTRINE2_PATH/config/twig.php** matches with your filesystem. In case you directly clone the whole Twig project in your vendors dir (by typing **git clone https://github.com/fabpot/Twig.git**), the default path should do.
 
 Once twig has been copied, you should be able to use this Spark like any others, by loading it in your controller:
 
